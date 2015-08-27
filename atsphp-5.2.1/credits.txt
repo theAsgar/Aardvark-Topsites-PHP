@@ -1,0 +1,158 @@
+//===========================================================================\\
+// Aardvark Topsites PHP 5.2                                                 \\
+// Copyright (c) 2000-2009 Jeremy Scheff.  All rights reserved.              \\
+//---------------------------------------------------------------------------\\
+// http://www.aardvarktopsitesphp.com/                http://www.avatic.com/ \\
+//---------------------------------------------------------------------------\\
+// This program is free software; you can redistribute it and/or modify it   \\
+// under the terms of the GNU General Public License as published by the     \\
+// Free Software Foundation; either version 2 of the License, or (at your    \\
+// option) any later version.                                                \\
+//                                                                           \\
+// This program is distributed in the hope that it will be useful, but       \\
+// WITHOUT ANY WARRANTY; without even the implied warranty of                \\
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General \\
+// Public License for more details.                                          \\
+//===========================================================================\\
+
+A good open source script requires a great community of contributors.  Even if
+one person can code an entire project by themselves (which I didn't), they
+still typically do not have the artistic ability to design an attractive user
+interface and they definitely are not fluent in 20 different languages.  So I
+really do appreciate everyone who has helped me code, design, and translate
+Aardvark Topsites PHP over the years.  I also appreciate the people who have
+not directly worked with me, but have liberally licensed their work so
+programmers like myself can create better products by standing on their
+shoulders.
+
+It goes without saying that I owe a deep debt of gratitute to the creators of
+PHP, Apache, MySQL, Linux, and other prominent open source projects.  However,
+in this file I would like to thank those who have directly aided in the
+development of Aardvark Topsites PHP and those whose work is currently
+distributed in this package.  If I forgot to put your name here, I apologize;
+just email me or post at the forum and I will update it.
+
+If you're a PHP coder and you would like to see your name here, then email me
+(webmaster@aardvarkind.com) because I am always looking for new coders to bring
+into the project.
+
+- Jeremy
+
+
+
+------
+CODERS
+------
+
+Jeremy Scheff <http://www.aardvarktopsitesphp.com/>
+- Lead developer since the beginning
+- Wrote almost all of the code
+- Designed the Classic skin
+
+Matt Wells <http://www.whywontyou.co.uk/>
+- Wrote original version of feed.php, backup_database.php, and probably a few
+  other things that I'm forgetting
+- Optimized some of the SQL queries
+- Helped with the Fusion skin
+
+---------
+DESIGNERS
+---------
+
+Omar Hachem <http://www.oritsuru.com/>
+- Designed the Fusion skin
+
+OS-Mark <http://www.osempire.com/>
+- Improvements to the Fusion skin
+
+-----------
+TRANSLATORS
+-----------
+
+Arabic (عربي)
+- المستثمرون العرب <http://www.mostathmr.com/>
+
+Bosnian (Bosanski)
+- Hame <http://www.PortalBiH.com/>
+
+Czech (Česky)
+- Robert Adamek <http://www.ultima.cz/>
+
+Danish (Dansk)
+- Helmuth Mikkelsen <http://www.helmuth.dk/>
+
+Dutch (Nederlands)
+- Ruben Coolen <http://www.lords-of-war.nl/>
+
+Finnish (Suomi)
+- Pekka Pelkonen <http://www.paimiowoodland.net/>
+
+French (Francais)
+- Kamisama <http://kamidesign.thegreatspirit.net/>
+
+German (Deutsch)
+- Hiero <http://www.cruiser-berlin.de/> (Since version 5.2.0+)
+- Michael Schiecke (Speedmike) <http://www.speedmike.de/>
+
+Greek (Ελληνικά)
+- Dimi <http://www.hellasplus.com/>
+
+Hebrew (עברית)
+- Dan_y2k <http://y2k.official.ws/>
+
+Hungarian (magyar nyelv)
+- Varanka Zoltán <http://novoportal.hu/>
+
+Italian (Italiano)
+- Massimo Di Paolo <http://www.top100-solar.it/> (Up to version 5.1.2)
+- Fabio Selvatici <http://www.twist3dart.com/> (Since version 5.2.0)
+
+Kurdish (کوردی)
+- سیڤان <http://kurdchat.newsit.es>
+
+Lithuanian (Lietuvių)
+- MNK Group <http://mnk.xz.lt/>
+
+Macedonian (Македонски)
+- GjokoMk <http://www.velgosti.com/>
+
+Norwegian (Norsk)
+- Thomas Torjusen <http://www.dykkesiden.com/>
+
+Polish (Polski)
+- zolw <http://www.toplista.mojeforum.net/>
+
+Portuguese (Brazilian) (Português Brasileiro)
+- Jorge Luis Ferrari Ce <http://www.wheez.com.br/>
+
+Romanian (Românã)
+- Adrian-Marius Mihai (Mastermind) <http://www.masterminds.ro/>
+
+Russian (Русский)
+- Andrey Kanevsky <http://www.americaru.com/>
+
+Serbian (Srpski)
+- wukaschin <http://www.yu-fitness.com/>
+
+Spanish (Español)
+- Eduardo Sainz <http://www.encastellano.org> (Up to version 5.1.2)
+- Victor Montero (Sayoran) <http://www.sayoran-anime.net/> (Since version 5.2.0)
+
+Swedish (Svenska)
+- Topplista.se <http://www.topplista.se/>
+
+Turkish (Türkçe)
+- Ergün Acar <http://www.weblistele.com/> (Up to version 5.1.2)
+- M.Bahattin EKEN <http://www.sitelerimiz.biz/> (Since version 5.2.0)
+
+-----
+OTHER
+-----
+
+captcha.php is based on HN Captcha 1.3 by Horst Nogajski:
+http://hn273.users.phpclasses.org/browse/package/1569.html
+
+The captcha uses several GPL and public domain fonts:
+- Kozmic Jagged Hands and Rubbing Font <http://www.theory.org/~matt/fonts/free/>
+- Bitstream Vera Sans Bold and Bitstream Vera Serif <http://www.gnome.org/fonts/>
+- OCR-A <http://sourceforge.net/projects/ocr-a-font/>

@@ -1,0 +1,13 @@
+<fieldset>
+<legend>{$lng->user_cp_header}</legend>
+<form action="{$list_url}/index.php?a=user_cpl" method="post">
+<label>{$lng->g_username}<br />
+<input type="text" name="u" size="20" /><br /><br />
+</label>
+<label>{$lng->g_password}<br />
+<input type="password" name="password" size="20" /><br /><br />
+</label>
+<input type="submit" value="{$lng->user_cp_login}" /><br /><br />
+<a href="{$list_url}/index.php?a=lost_pw">{$lng->lost_pw_forgot}</a>
+</form>
+</fieldset>

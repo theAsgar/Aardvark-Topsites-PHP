@@ -1,0 +1,14 @@
+<script language="javascript">
+function out(username)
+{
+  image = new Image();
+  image.src= '{$list_url}/index.php?a=out&u=' + username;
+}
+</script>
+<table><tr><td>
+<center><b>{$lng->ssi_new}</b></center>
+<ol>
+{$sites}
+</ol>
+<center><a href="{$list_url}/index.php?a=join">{$lng->join_header}</a> | <a href="{$list_url}/">{$lng->ssi_all}</a></center>
+</td></tr></table>

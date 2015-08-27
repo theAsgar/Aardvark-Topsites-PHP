@@ -1,0 +1,37 @@
+<p class="{$error_style_top}" style="margin-top: 0px;">{$error_top}</p>
+
+<form action="index.php?a=user_cpl&amp;b=edit" method="post">
+<fieldset>
+<legend>{$lng->join_website}</legend>
+<div class="{$error_style_url}"><label>{$lng->g_url}<br />
+<input type="text" name="url" size="50" value="{$url}" />
+{$error_url}
+</label></div><br />
+<div class="{$error_style_title}"><label>{$lng->g_title}<br />
+<input type="text" name="title" size="50" value="{$title}" />
+{$error_title}
+</label></div><br />
+<label>{$lng->g_description}<br />
+<textarea cols="40" rows="5" name="description">{$description}</textarea><br /><br />
+</label>
+<label>{$lng->g_category}<br />
+{$categories_menu}<br /><br />
+</label>
+<div class="{$error_style_banner_url}"><label>{$lng->g_banner_url} {$join_banner_size}<br />
+<input type="text" name="banner_url" size="50" value="{$banner_url}" />
+{$error_banner_url}
+</label></div><br />
+<div class="{$error_style_email}"><label>{$lng->g_email}<br />
+<input type="text" name="email" size="50" value="{$email}" />
+{$error_email}
+</label></div>
+</fieldset>
+
+<fieldset>
+<legend>{$lng->join_user}</legend>
+<label>{$lng->g_password} - {$lng->edit_password_blank}<br />
+<input type="password" name="password" size="20" /><br /><br />
+</label>
+<input name="submit" type="submit" value="{$lng->edit_header}" />
+</fieldset>
+</form>
