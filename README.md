@@ -27,4 +27,4 @@ Having trouble? Try the detailed manual(http://www.aardvarktopsitesphp.com/manua
 Members' ranks can be shown on their buttons, along with any other stat
 SEO-friendly links make your topsites list rank higher in Google and other search engines
 
-### Aardvark Topsites PHP has not been updated since 2009.
+### "Aardvark Topsites PHP has not been updated since 2009."
